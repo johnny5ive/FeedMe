@@ -54,12 +54,7 @@
 
            <div class="nav pull-right">
                 <img src="static/img/default.jpg" class="nav pull-left" id="profile-image" />
-                  <ul class="nav">
-                    <li class="up-item"><a href="account">Account</a></li><br>
-                    <li class="up-item"><a href="usertype">User Type</a></li><br>
-                    <li class="up-item"><a href="notification">Notification #</a></li>
-                  </ul>
-                <ul class="nav">
+                                <ul class="nav">
   
                 <li class="dropdown"> 
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b class="caret large-caret"></b></a>
@@ -69,6 +64,13 @@
                                 </ul>
                               </li>
                             </ul>
+
+                  <ul class="nav">
+                    <li class="up-item"><a href="account">@user.name</a></li><br>
+                    <li class="up-item"><a href="usertype">@user.type</a></li><br>
+                    <li class="up-item"><a href="notification">@notification #</a></li>
+                  </ul>
+
                           </div>
         </div>
       </div>
@@ -76,7 +78,7 @@
 
     <div class="container-fluid">
       <div class="row-fluid">
-        <div class="span9">
+        <div class="span9" id="content">
           <article>
             <h1>@import Article.title ------------------------</h1>
             <h3>@import Article.subtitle | @Article.author @Article.timestamp</h3>

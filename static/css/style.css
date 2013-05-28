@@ -21,3 +21,7 @@
 .navbar .nav li a {
 	padding: 20px 15px 20px;
 }
+
+#content {
+	margin-top: 20px;
+}
