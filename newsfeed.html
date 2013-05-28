@@ -46,87 +46,63 @@
             </ul>
           </div>
 
-           <div class="nav pull-right">
-                <img src="static/img/default.jpg" class="nav pull-left" id="profile-image" />
-                <ul class="nav">
-                   <li class="up-item"><a href="#account">Jacob Vickers</a></li><br>
-                   <li class="up-item"><a href="#usertype">User</a></li><br>
-                   <li class="up-item"><a href="#notification">Notifications: 0</a></li>
+          <div class="nav pull-right">
+            <ul class="nav">
+              <li class="dropdown"> 
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b class="caret large-caret"></b></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#settings">Settings</a></li>
+                  <li><a href="#logout">Logout</a></li>
                 </ul>
-                <ul class="nav">
-                  <li class="dropdown"> 
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b class="caret large-caret"></b></a>
-                    <ul class="dropdown-menu" role="menu">
-                      <li><a href="#userpage">User Center</a></li>
-                      <li><a href="#settings">Settings</a></li>
-                      <li><a href="#logout">Logout</a></li>
-                    </ul>
-                  </li>
-                </ul>
-            </div>
+              </li>
+            </ul>
+            <img src="static/img/default.jpg" class="nav pull-left" id="profile-image" />
+            <ul class="nav">
+              <li class="up-item"><a href="#account">@user.name</a></li><br>
+              <li class="up-item"><a href="#usertype">@user.type</a></li><br>
+              <li class="up-item"><a href="#notification">@notification #</a></li>
+            </ul>
+           </div>
         </div>
       </div>
     </div>
 
-    <div class="container-fluid">
+    <div class="container-fluid" id="maincontainer">
       <div class="row-fluid">
-        <div class="span9" id="content">
-          <div class="friend-feed">
-		    <img src="http://fpoimg.com/200x200" alt="" class="pull-left">
-			<h1>@Article.title</h1>
-			<h3>@User.name replied to your comment with the following:</h3>
-			<p><q>@Comments.commentContent: Synergistic visionary reinvent strategic channels visionary clicks-and-mortar back-end aggregate. Weblogs leverage embedded.</p></q>
-		  </div>
-          <div class="friend-feed">
-		    <img src="http://fpoimg.com/200x200" alt="" class="pull-left">
-		    <h1>@Article.title</h1>
-		    <h3>This article was recently favorited by <a href="#" class="user">Friend C</a></h3>
-		    <p><q>@Article.abstract: Initiatives dynamic; niches, e-markets embedded bricks-and-clicks benchmark collaborative, life-hacks ecologies share scalable. Supply-chains bleeding-edge embrace visualize.</q></p>
-		  </div>
-          <div class="friend-feed">
-		    <img src="http://fpoimg.com/200x200" alt="" class="pull-left">
-			<h1>@Article.title</h1>
-			<h3>@User.name replied to your comment with the following:</h3>
-			<p><q>@Comments.commentContent: Synergistic visionary reinvent strategic channels visionary clicks-and-mortar back-end aggregate. Weblogs leverage embedded.</p></q>
-		  </div>
+        <div class="span1" id="thumbnail">
+          <img src="static/img/default.jpg"> 
+          <img src="static/img/default.jpg">
+          <img src="static/img/default.jpg">
         </div>
-        <div class="span3">
-          <div class="friends-and-services">
-            <h4>Active Friends</h4>
-			<div class="thumb-container">
-			  <img src="http://fpoimg.com/75x75" alt="">
-			  <img src="http://fpoimg.com/75x75" alt="">
-			  <img src="http://fpoimg.com/75x75" alt="">
-			  <img src="http://fpoimg.com/75x75" alt="">
-			</div>
-			<h4>Connected Services</h4>
-			<div class="thumb-container">
-			  <img src="http://fpoimg.com/75x75" alt="">
-			  <img src="http://fpoimg.com/75x75" alt="">
-			  <img src="http://fpoimg.com/75x75" alt="">
-			  <img src="http://fpoimg.com/75x75" alt="">
-			</div>
+        <div class="span8 pull-left" id="content">
+          <div class="article">
+            <div class="title">@Article.title</div>
+            <div class="tagline">@Author.name | @Article.timestamp | @Article.articleType | @LIST(Categories.name) </div>
+            <div>@Article.abstract: Synergistic visionary reinvent strategic channels visionary clicks-and-mortar back-end aggregate. Weblogs leverage embedded. </div>
           </div>
-          <div class="friend-activity">
-            <div>
-				<img src="http://fpoimg.com/75x75" alt="">
-				<p><a href="#" class="user">Friend A</a> commented on @Article.title</p>
-			</div>
-            <div>
-				<img src="http://fpoimg.com/75x75" alt="">
-				<p><a href="#" class="user">Friend B</a> just read @Article.title</p>
-			</div>
-            <div>
-				<img src="http://fpoimg.com/75x75" alt="">
-				<p><a href="#" class="user">Friend C</a> favorited this: @Article.title</p>
-			</div>
-            <div>
-				<img src="http://fpoimg.com/75x75" alt="">
-				<p><a href="#" class="user">Friend D</a> commented on @Article.title</p>
-			</div>
+          <div class="article">
+              <div class="title">@Article.title</div>
+              <div class="tagline">@Author.name | @Article.timestamp | @Article.articleType | @LIST(Categories.name)</div>
+              <div>@Article.abstract: Synergistic visionary reinvent strategic channels visionary clicks-and-mortar back-end aggregate. Weblogs leverage embedded. </div>
+          </div>
+          <div class="article">
+              <div class="title">@Article.title</div>
+              <div class="tagline">@Author.name | @Article.timestamp | @Article.articleType | @LIST(Categories.name)</div>
+              <div>@Article.abstract: Synergistic visionary reinvent strategic channels visionary clicks-and-mortar back-end aggregate. Weblogs leverage embedded. </div>
           </div>
         </div>
-        
+        <div class="span3" id="searchspan">
+          <div>
+            <h4>Smart Filter</h4>
+          </div>
+          <form class="navbar-search">
+            <input type="text" class="search-query input-large" placeholder="Search" id="searchbox">
+          </form>
+          <div class="clearfloats"></div>
+          <div class="text-center" id="catfilter">
+            stuff goes here
+          </div>  
+        </div>  
       </div>
       
     </div> <!-- /container -->
