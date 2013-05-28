@@ -1,5 +1,13 @@
 body {
-	padding-top: 60px; 
+	padding-top: 64px; 
+}
+
+q:before {
+	content: open-quote;
+}
+
+q:after {
+	content: close-quote;
 }
 
 #profile-image {
@@ -33,7 +41,6 @@ body {
 article {
 	margin-right: 5%;
 }
-
 #maincontainer {
 	padding-right: 0px;
 }
@@ -87,4 +94,21 @@ article {
 	display: block;
 	width: 80px;
 	height: 80px;
+}
+
+.friend-feed {
+	margin: 10px 0;
+	overflow: hidden;
+}
+
+.friend-feed > img {
+	margin: 10px;
+}
+
+.friend-feed > h3 {
+	font-weight: normal;
+}
+
+.user {
+	font-weight: bold;
 }
