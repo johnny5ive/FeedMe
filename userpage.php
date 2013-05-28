@@ -65,6 +65,6 @@
     </div>
     
   </div> <!-- /container -->
-  <?php include 'static/scripts.php'; ?>
+  <?php include 'layout/scripts.php'; ?>
 </body>
 </html>
