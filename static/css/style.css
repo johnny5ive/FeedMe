@@ -19,30 +19,6 @@ q:after {
 	content: close-quote;
 }
 
-#profile-image {
-	margin-top: 5px;
-}
-
-.large-caret {
-	border-top: 16px solid #000;
-	border-right: 4px solid transparent;
-	border-left: 4px solid transparent;
-}
-
-#user-panel {
-	font-size: 14px;
-	color: #999;
-}
-
-.up-item a {
-	font-size: 14px;
-	padding: 0px !important;
-}
-
-.navbar .nav li a {
-	padding: 20px 15px 20px;
-}
-
 #content {
 	margin-top: 20px;
 }
@@ -50,6 +26,7 @@ q:after {
 article {
 	margin-right: 5%;
 }
+
 #maincontainer {
 	padding-right: 0px;
 }
@@ -172,11 +149,48 @@ article {
 	padding-top: 5%;
 }
 
+/*****
+
+Banner
+
+******/
+
 .large-omni {
 	/* TODO: This should be javascript that figures out the width of the page and fills it */
+	/*this is currently used to resize on mouseover/focus events*/
 	width: 400px;
+}
+
+.up-item a {
+	font-size: 14px;
+	padding: 0px !important;
+}
+
+.navbar .nav li a {
+	padding: 20px 15px 20px;
 }
 
 #omnibar {
 	margin-top: 10px;
+}
+
+/*****
+
+User Profile Box
+
+******/
+
+#profile-image {
+	margin-top: 5px;
+}
+
+.large-caret {
+	border-top: 16px solid #000;
+	border-right: 4px solid transparent;
+	border-left: 4px solid transparent;
+}
+
+#user-panel {
+	font-size: 14px;
+	color: #999;
 }
