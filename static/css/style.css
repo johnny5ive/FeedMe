@@ -1,0 +1,23 @@
+#profile-image {
+	margin-top: 5px;
+}
+
+.large-caret {
+	border-top: 16px solid #000;
+	border-right: 4px solid transparent;
+	border-left: 4px solid transparent;
+}
+
+#user-panel {
+	font-size: 14px;
+	color: #999;
+}
+
+.up-item a {
+	font-size: 14px;
+	padding: 0px !important;
+}
+
+.navbar .nav li a {
+	padding: 20px 15px 20px;
+}

@@ -41,6 +41,7 @@
             <span class="icon-bar"></span>
           </button>
           <a class="brand" href="#">FeedMe</a>
+          
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="active"><a href="#">Hot</a></li>
@@ -49,15 +50,21 @@
               <li><a href="#contact">Recommended</a></li>
               
             </ul>
-
-
           </div>
-           <div class="nav pull-right user-panel">
-                <ul class="nav pull-right"><img src="static/img/default.jpg" class="nav pull-left" />
-                              <li class="dropdown"> 
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Trigger<b class="caret"></b></a>
+
+           <div class="nav pull-right">
+                <img src="static/img/default.jpg" class="nav pull-left" id="profile-image" />
+                  <ul class="nav">
+                    <li class="up-item"><a href="account">Account</a></li><br>
+                    <li class="up-item"><a href="usertype">User Type</a></li><br>
+                    <li class="up-item"><a href="notification">Notification #</a></li>
+                  </ul>
+                <ul class="nav">
+  
+                <li class="dropdown"> 
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b class="caret large-caret"></b></a>
                                 <ul class="dropdown-menu" role="menu">
-                                  <li><a href="#">1</a></li>
+                                  <li class="active"><a href="#">1</a></li>
                                   <li><a href="#">2</a></li>
                                 </ul>
                               </li>
