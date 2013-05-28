@@ -50,3 +50,35 @@ body {
 	padding: 10px;
 	margin-top: 20px;
 }
+
+.article {
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.article img {
+	float: left;
+	height: 80px;
+	width: 80px;
+	padding-right: 20px;
+}
+
+.article .title {
+	font-size: 16px;
+}
+
+.article .tagline {
+	font-size: 12px;
+}
+
+#thumbnail {
+	margin-top: 40px;
+}
+
+#thumbnail img{
+	padding-bottom: 50px;
+	display: block;
+	width: 80px;
+	height: 80px;
+}
