@@ -33,6 +33,7 @@ body {
 article {
 	margin-right: 5%;
 }
+
 #maincontainer {
 	padding-right: 0px;
 }
@@ -58,6 +59,8 @@ article {
 	width: 100%;
 	margin-top: 20px;
 	margin-bottom: 50px;
+	font-size: 10px;
+	height: 80px;
 }
 
 .article img {
