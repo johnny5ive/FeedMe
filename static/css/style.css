@@ -2,6 +2,15 @@ body {
 	padding-top: 64px; 
 }
 
+h1 {
+	line-height: 40px;
+	font-size: 2.25em;
+} 
+
+h2, h3 {
+	line-height: 25px;
+}
+
 q:before {
 	content: open-quote;
 }
@@ -101,7 +110,7 @@ article {
 	overflow: hidden;
 }
 
-.friend-feed > img {
+.friend-feed > a > img {
 	margin: 10px;
 }
 
@@ -113,34 +122,52 @@ article {
 	font-weight: bold;
 }
 
-.friends-and-services, .friend-activity {
-	border: 2px solid black;
-	margin: 10px;
-	padding: 5px;
+.user:hover {
+	text-decoration: none;
+}
+
+.friends-and-services {
+	/*border-radius: 15px;*/
+	/*border: 2px solid black;*/
+	margin: 5%;
+	padding: 4%;
 	overflow: hidden;
 }
 
-.friends-and-services h4 {
+.friends-and-services {
+	margin-bottom: 5% !important;
+}
+
+.friends-and-services > h4 {
 	clear: both;
 	font-weight: normal;
 }
 
-.friends-and-services .thumb-container {
+.friends-and-services, .thumb-container{
 	overflow: hidden;
 }
 
-.friends-and-services img {
+.friends-and-services img  {
 	float: left;
 	margin: 0 5px;
 }
 
-.friend-activity > div {
-	font-size: 24px;
-	line-height: 30px;
-	overflow: hidden;
+.friend-activity img, .relevant > li > img {
+	left: 0;
 }
 
-.friend-activity > div > img {
-	float: left;
-	margin: 3px;
+.friend-activity > li > div, .relevant > li > div {
+	font-size: 10px !important;
+	line-height: 105%;
+	white-space: normal !important;
+	/*overflow: hidden;*/
+}
+
+.relevant > li > h4 {
+	font-size: 12px !important;
+	margin: 0;
+}
+
+.relevant {
+	padding-top: 5%;
 }
