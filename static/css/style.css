@@ -171,3 +171,12 @@ article {
 .relevant {
 	padding-top: 5%;
 }
+
+.large-omni {
+	/* TODO: This should be javascript that figures out the width of the page and fills it */
+	width: 400px;
+}
+
+#omnibar {
+	margin-top: 10px;
+}
