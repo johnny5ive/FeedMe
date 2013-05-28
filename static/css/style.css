@@ -30,6 +30,9 @@ body {
 	margin-top: 20px;
 }
 
+article {
+	margin-right: 5%;
+}
 #maincontainer {
 	padding-right: 0px;
 }
