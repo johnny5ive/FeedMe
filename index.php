@@ -1,7 +1,7 @@
-<?php include 'layout/header.php' ?>
+<?php include 'layout/header.php'; ?>
 
   <body>
-    <?php include 'layout/banner.php' ?>
+    <?php include 'layout/banner.php'; ?>
 
     <!-- container -->
     <div class="container-fluid">
@@ -15,8 +15,8 @@
     
     </div> 
     <!-- /container -->
-    
-    <?php include 'layout/scripts.php' ?>
+
+    <?php include 'layout/scripts.php'; ?>
 
   </body>
 </html>
