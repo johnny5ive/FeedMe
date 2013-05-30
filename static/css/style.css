@@ -1,3 +1,7 @@
+.container-fluid {
+	padding-right: 0;
+}
+
 body {
 	padding-top: 64px; 
 }
@@ -183,18 +187,13 @@ Banner
 User Profile Box
 
 ******/
+#side_panel
 
-#profile-image {
-	margin-top: 5px;
+.panel {
+	border: 1px solid black;
 }
 
-.large-caret {
-	border-top: 16px solid #000;
-	border-right: 4px solid transparent;
-	border-left: 4px solid transparent;
+#sidebar {
+	border: 1px solid blue;	
 }
 
-#user-panel {
-	font-size: 14px;
-	color: #999;
-}
