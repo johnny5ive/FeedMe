@@ -49,7 +49,11 @@
             </div>
             <div class="panel rounded-bottom" id="actives_panel">
               <span id="active-friends">Active Friends</span>
-              
+              <ul id="active-friends-carousel" class="jcarousel-skin-simple">
+                <!-- The content goes in here -->
+                <li>1</li>
+                <li>2</li>
+              </ul>
             </div>
           </div>
         </div>
