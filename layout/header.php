@@ -8,7 +8,8 @@
   <meta name="author" content="Kartik Rishi, Morgan Hein, Jordan Atwood">
 
   <!-- Le styles -->
-    <link href="static/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="flat/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet/less" type="text/css" href="flat/less/flat-ui.less" />
     <link href="static/css/style.css" rel="stylesheet" type="text/css" /> 
     <link rel="stylesheet" type="text/css" href="static/css/skin.css" />
 </head>
