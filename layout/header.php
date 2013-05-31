@@ -9,6 +9,6 @@
 
   <!-- Le styles -->
     <link href="static/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="static/css/style.css" rel="stylesheet" type="text/css" />
-    <link href="static/css/simple.css" rel="stylesheet" type="text/css" />   
+    <link href="static/css/style.css" rel="stylesheet" type="text/css" /> 
+    <link rel="stylesheet" type="text/css" href="static/css/skin.css" />
 </head>
