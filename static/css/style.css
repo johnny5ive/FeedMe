@@ -28,7 +28,6 @@ article {
 }
 
 #searchspan {
-
 	border-bottom: 2px solid black;
 	border-left: 2px solid black;
 	padding: 10px 20px 10px 20px;
@@ -100,8 +99,6 @@ article {
 }
 
 .friends-and-services {
-	/*border-radius: 15px;*/
-	/*border: 2px solid black;*/
 	margin: 5%;
 	padding: 4%;
 	overflow: hidden;
