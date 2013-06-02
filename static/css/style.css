@@ -1,3 +1,19 @@
+/*****
+
+Body & Main Container
+
+******/
+
+#content {
+	margin-top: 20px;
+}
+
+/*****
+
+Generics
+
+******/
+
 h1 {
 	line-height: 40px;
 	font-size: 2.25em;1
@@ -15,36 +31,21 @@ q:after {
 	content: close-quote;
 }
 
-#content {
-	margin-top: 20px;
+.clearfloats {
+	clear: both;
 }
+
+/*****
+
+Articles
+
+******/
 
 article {
 	margin-right: 5%;
 }
 
-#maincontainer {
-	padding-right: 0px;
-}
-
-#searchspan {
-
-	border-bottom: 2px solid black;
-	border-left: 2px solid black;
-	padding: 10px 20px 10px 20px;
-}
-
-.clearfloats {
-	clear: both;
-}
-
-#catfilter {
-	border: 2px solid black;
-	padding: 10px;
-	margin-top: 20px;
-}
-
-.article {
+article {
 	width: 100%;
 	margin-top: 20px;
 	margin-bottom: 50px;
@@ -52,97 +53,38 @@ article {
 	height: 80px;
 }
 
-.article img {
+article img {
 	float: left;
 	height: 80px;
 	width: 80px;
 	padding-right: 20px;
 }
 
-.article .title {
+article .title {
 	font-size: 16px;
 }
 
-.article .tagline {
+article .tagline {
 	font-size: 12px;
 }
 
-#thumbnail {
-	margin-top: 40px;
+.article-controls {
+	float: right;
+	margin-right: 60px;
 }
 
-#thumbnail img{
-	padding-bottom: 50px;
+.article-controls img {
 	display: block;
-	width: 80px;
-	height: 80px;
+	height: 20px;
+	width: 20px;
+	padding: 0;
+	float: none;
 }
 
-.friend-feed {
-	margin: 10px 0;
-	overflow: hidden;
-}
-
-.friend-feed > a > img {
-	margin: 10px;
-}
-
-.friend-feed > h3 {
-	font-weight: normal;
-}
-
-.user {
-	font-weight: bold;
-}
-
-.user:hover {
-	text-decoration: none;
-}
-
-.friends-and-services {
-	/*border-radius: 15px;*/
-	/*border: 2px solid black;*/
-	margin: 5%;
-	padding: 4%;
-	overflow: hidden;
-}
-
-.friends-and-services {
-	margin-bottom: 5% !important;
-}
-
-.friends-and-services > h4 {
-	clear: both;
-	font-weight: normal;
-}
-
-.friends-and-services, .thumb-container{
-	overflow: hidden;
-}
-
-.friends-and-services img  {
-	float: left;
-	margin: 0 5px;
-}
-
-.friend-activity img, .relevant > li > img {
-	left: 0;
-}
-
-.friend-activity > li > div, .relevant > li > div {
-	font-size: 10px !important;
-	line-height: 105%;
-	white-space: normal !important;
-	/*overflow: hidden;*/
-}
-
-.relevant > li > h4 {
-	font-size: 12px !important;
-	margin: 0;
-}
-
-.relevant {
-	padding-top: 5%;
+.article-controls .down  {
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 }
 
 /*****
@@ -246,6 +188,17 @@ User Profile Box
 	padding-right: 5px;
 }
 
+
 #friends-activity-carousel {
 	width: 100%;
+}
+
+.carousel-img {
+	width: 75px;
+	height: 75px;
+}
+
+.share {
+	visibility: hidden;
+
 }

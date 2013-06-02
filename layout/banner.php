@@ -17,7 +17,9 @@
             <a href="#recommended">Recommended</a>
           </li>
         </ul>
-      </div><!--/.nav -->
+      </div>
+        <input type="text" class="search-query" placeholder="Omnibar" id="omnibar">
+      <!--/.nav -->
     </div>
   </div>
 </div>

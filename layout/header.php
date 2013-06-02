@@ -9,7 +9,10 @@
 
   <!-- Le styles -->
     <link href="flat/bootstrap/css/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet/less" type="text/css" href="flat/less/flat-ui.less" />
+    <link href="flat/less/flat-ui.less" rel="stylesheet/less" type="text/css" />
     <link href="static/css/style.css" rel="stylesheet" type="text/css" /> 
-    <link rel="stylesheet" type="text/css" href="static/css/skin.css" />
+    <link href="static/css/carousel.css" rel="stylesheet" type="text/css"  />
+
+    <?php include 'layout/scripts.php' ?>
+
 </head>
