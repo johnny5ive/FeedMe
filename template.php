@@ -56,6 +56,11 @@
                   <li><img src="static/img/default.jpg" width="75px" height="75px" /></li>
                   <li><img src="static/img/default.jpg" width="75px" height="75px" /></li>
                   <li><img src="static/img/feedme.png" width="75px" height="75px" /></li>
+                  <li><img src="static/img/default.jpg" width="75px" height="75px" /></li>
+                  <li><img src="static/img/default.jpg" width="75px" height="75px" /></li>
+                  <li><img src="static/img/default.jpg" width="75px" height="75px" /></li>
+                  <li><img src="static/img/default.jpg" width="75px" height="75px" /></li>
+                  <li><img src="static/img/feedme.png" width="75px" height="75px" /></li>
                 </ul>
               </div>
             </div>
