@@ -1,3 +1,4 @@
 <div class="article-controls">
-  button
+  <img src="static/img/arrow.png" />
+  <img src="static/img/arrow.png" class="down" />
 </div>
