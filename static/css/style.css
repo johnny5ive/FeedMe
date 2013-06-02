@@ -61,11 +61,16 @@ article img {
 }
 
 article .title {
-	font-size: 16px;
+	font-size: 20px;
 }
 
 article .tagline {
 	font-size: 12px;
+}
+
+article .contents {
+	color: black;
+	font-size: 16px;
 }
 
 .article-controls {
