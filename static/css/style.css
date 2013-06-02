@@ -68,6 +68,11 @@ article .tagline {
 	font-size: 12px;
 }
 
+.article-controls {
+	float: right;
+	margin-right: 60px;
+}
+
 /*****
 
 Banner
