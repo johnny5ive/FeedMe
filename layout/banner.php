@@ -10,10 +10,10 @@
           <li>
             <a href="#new">New</a>
           </li>
-          <li class="active">
+          <li>
             <a href="#controversial">Controversial</a>
           </li>
-          <li>
+          <li class="active">
             <a href="#recommended">Recommended</a>
           </li>
         </ul>
