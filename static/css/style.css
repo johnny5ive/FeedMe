@@ -192,3 +192,7 @@ User Profile Box
 	width: 75px;
 	height: 75px;
 }
+
+.share {
+	visibility: hidden;
+}

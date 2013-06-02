@@ -3,9 +3,20 @@ $(document).ready(function() {
       wrap: 'circular'
     });
 
-    $('.share-link').click(function () {
-        $('#article_46').load('layout/share.php');
+    $(document).click(function() {
+        $('#share-box').hide();
     });
 
-     
+    $('.share-link').click(function(event) {
+        $('#share-box').css({'position': 'absolute', 'top': event.pageY + 'px', 
+            'left': event.pageX + 'px', 'z-index': 2, 'visibility': 'visible'});
+        $('#share-box').show();
+        event.stopPropagation();
+    });
+
+    $('#share-button').click(function() {
+        $('#share-box').hide();
+    });
+
+    $
 });
