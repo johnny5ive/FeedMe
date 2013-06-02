@@ -71,6 +71,7 @@ article .tagline {
 article .contents {
 	color: black;
 	font-size: 16px;
+	margin-top: 1em;
 }
 
 .article-controls {
