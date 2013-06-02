@@ -71,11 +71,11 @@
               <span id="active-friends">Active Friends</span>
               <div class="carousel-wrapper">
                 <ul id="friends-activity-carousel" class="jcarousel-skin-tango">
-                  <li><img src="static/img/default.jpg" width="75px" height="75px" /></li>
-                  <li><img src="static/img/default.jpg" width="75px" height="75px" /></li>
-                  <li><img src="static/img/default.jpg" width="75px" height="75px" /></li>
-                  <li><img src="static/img/default.jpg" width="75px" height="75px" /></li>
-                  <li><img src="static/img/feedme.png" width="75px" height="75px" /></li>
+                  <li><img src="static/img/default.jpg" class="carousel-img" /></li>
+                  <li><img src="static/img/default.jpg" class="carousel-img" /></li>
+                  <li><img src="static/img/default.jpg" class="carousel-img" /></li>
+                  <li><img src="static/img/default.jpg" class="carousel-img" /></li>
+                  <li><img src="static/img/feedme.png" class="carousel-img"/></li>
                 </ul>
               </div>
             </div>

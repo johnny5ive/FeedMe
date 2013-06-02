@@ -79,7 +79,7 @@ article .tagline {
 	width: 20px;
 }
 
-.article-controls img .down {
+.article-controls .down  {
 	-webkit-transform: rotate(180deg);
 	-moz-transform: rotate(180deg);
 	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
@@ -184,4 +184,9 @@ User Profile Box
 	width: 25px;
 	float: left;
 	padding-right: 5px;
+}
+
+.carousel-img {
+	width: 75px;
+	height: 75px;
 }
