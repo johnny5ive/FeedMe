@@ -18,9 +18,7 @@
           </li>
         </ul>
       </div>
-      <form class="navbar-search pull-left">
         <input type="text" class="search-query" placeholder="Omnibar" id="omnibar">
-      </form>
       <!--/.nav -->
     </div>
   </div>
