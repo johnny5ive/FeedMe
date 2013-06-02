@@ -13,4 +13,6 @@
     <link href="static/css/style.css" rel="stylesheet" type="text/css" /> 
     <link href="static/css/carousel.css" rel="stylesheet" type="text/css"  />
 
+    <?php include 'layout/scripts.php' ?>
+
 </head>
