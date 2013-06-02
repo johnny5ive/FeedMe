@@ -2,7 +2,7 @@
   <div class="navbar-inner">
     <div class="container">
       <div class="nav-collapse collapse" id="nav-collapse-01">
-        <a class="brand" href="#" style="transition: margin 0s, padding 0s;"><img src="static/img/feedme.png" width="150px" /></a>
+        <a class="brand" href="#"><img src="static/img/feedme.png" width="150px" /></a>
         <ul class="nav">
           <li>
             <a href="#hot">Hot</a>
