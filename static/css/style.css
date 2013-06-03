@@ -49,7 +49,6 @@ article {
 	width: 100%;
 	margin-top: 20px;
 	margin-bottom: 50px;
-	font-size: 10px;
 }
 
 article img {
@@ -71,6 +70,11 @@ article .contents {
 	color: black;
 	font-size: 16px;
 	margin-top: 1em;
+}
+
+article .abstract {
+	font-size: 14px;
+	margin-top: 5px;
 }
 
 #comments {
@@ -111,8 +115,8 @@ article .contents {
 .comment-form input {
 	float: right;
 	font-weight: bold;
-	max-width: 200px;
-	width: 10%;
+	max-width: 250px;
+	width: 20%;
 }
 
 #comments .separator {
@@ -165,7 +169,7 @@ Banner
 }
 
 #omnibar {
-	margin-top: 6px;
+	margin: 9px 0 0 20px;
 }
 
 #navbar {
@@ -252,6 +256,36 @@ User Profile Box
 .carousel-img {
 	width: 75px;
 	height: 75px;
+}
+
+/*****
+
+Article sidebar
+
+*****/
+
+#article_side {
+	margin-top: 30px;
+}
+
+#article_side > div{
+	border-top: 1px solid black;
+}
+
+#article_side .panel-header {
+	font-size: 30px;
+	font-variant: small-caps;
+}
+
+.recommended img{
+	float: left;
+	height: 60px;
+	margin: 0 5px 10px 0;
+	width: 60px;
+}
+
+.recommended  .title {
+	font-size: 20px;
 }
 
 .share {
