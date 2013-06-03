@@ -50,7 +50,6 @@ article {
 	margin-top: 20px;
 	margin-bottom: 50px;
 	font-size: 10px;
-	height: 80px;
 }
 
 article img {
@@ -73,6 +72,57 @@ article .contents {
 	font-size: 16px;
 	margin-top: 1em;
 }
+
+#comments {
+	margin: 50px 0;
+}
+
+#comments .count {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 10px 0;
+}
+
+#comments .comment-submit, #comments .comments {
+	overflow: hidden;
+}
+
+#comments form {
+	margin-left: 80px;
+	position: relative;
+}
+
+.comment-form img {
+	min-height: 50px;
+	position: absolute;
+		top: 10px;
+		left: -65px;
+	width: 50px;
+}
+
+.comment-form textarea{
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: block;
+	min-height: 50px;
+	position: relative;
+}
+
+.comment-form input {
+	float: right;
+	font-weight: bold;
+	max-width: 200px;
+	width: 10%;
+}
+
+#comments .separator {
+	border-top: 3px dotted black;
+	height: 0;
+	margin: 50px auto;
+	width: 60%;
+}
+
+
 
 .article-controls {
 	float: right;
@@ -205,6 +255,5 @@ User Profile Box
 }
 
 .share {
-	visibility: hidden;
-
+	display: none;
 }

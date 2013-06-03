@@ -33,6 +33,10 @@
               <p>So before you tell Shinseungback Kimyonghun to get their heads out of the clouds, consider this: they're just forwarding the project of human evolution—albeit with the help of a piece of script.</p>
 			</div>
           </article>
+		  <?php
+		    include 'layout/comments.php';
+			article_comments(12345);
+		  ?>
         </div>
         <div class="span3" id="sidebar">
           <div id="side_panel">
