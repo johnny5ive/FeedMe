@@ -15,17 +15,69 @@
 			</div>
 			<hr class="separator">
 			<div class="comments">
-				<img src="static/img/comments.png" style="margin: 15px;">
 				<div class="user-comment">
+					<img src="static/img/default.jpg" />
+					<span class="author">Jacob Vickers</span>
+					<span class="timestamp">2 days ago</span>
+					<div class="body">sample_comment~~~
+						1234
+						5678
+					</div>
+					<div class="comment-controls">
+						<div class="upvote">upvote</div>
+						|
+						<div class="downvote">downvoate</div>
+						<span class="reply">Reply</span>
+					</div>
 					
 					<div class="user-comment">
+						<img src="static/img/default.jpg" />
+						<span class="author">Jacob Vickers</span>
+						<span class="timestamp">2 days ago</span>
+						<div class="body">sample_comment~~~
+							1234
+							5678
+						</div>
+						<div class="comment-controls">
+							<div class="upvote">upvote</div>
+							|
+							<div class="downvote">downvoate</div>
+							<span class="reply">Reply</span>
+						</div>
+						
 						
 						<div class="user-comment">
+							<img src="static/img/default.jpg" />
+							<span class="author">Jacob Vickers</span>
+							<span class="timestamp">2 days ago</span>
+							<div class="body">sample_comment~~~
+								1234
+								5678
+							</div>
+							<div class="comment-controls">
+								<div class="upvote">upvote</div>
+								|
+								<div class="downvote">downvoate</div>
+								<span class="reply">Reply</span>
+							</div>
 						
 						</div>
 					</div>
 				</div>
 				<div class="user-comment">
+					<img src="static/img/default.jpg" />
+					<span class="author">Jacob Vickers</span>
+					<span class="timestamp">2 days ago</span>
+					<div class="body">sample_comment~~~
+						1234
+						5678
+					</div>
+					<div class="comment-controls">
+						<div class="upvote">upvote</div>
+						|
+						<div class="downvote">downvoate</div>
+						<span class="reply">Reply</span>
+					</div>
 				
 				</div>
 			</div>

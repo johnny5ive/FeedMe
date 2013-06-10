@@ -110,6 +110,7 @@ article .abstract {
 	display: block;
 	min-height: 50px;
 	position: relative;
+	width: 100%;
 }
 
 .comment-form input {
@@ -126,7 +127,65 @@ article .abstract {
 	width: 60%;
 }
 
+.user-comment {
+	margin: 0 0 10px 80px;
+	position: relative;
+}
 
+.user-comment .user-comment {
+	margin-left: 65px;
+	margin-top: 10px;
+}
+
+.user-comment > img:first-child {
+	height: 50px;
+	position: absolute;
+		top: 0;
+		left: -65px;
+	width: 50px;
+}
+
+.user-comment .author {
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.user-comment .timestamp:before {
+	content: "(";
+}
+
+.user-comment .timestamp:after {
+	content: ")";
+}
+
+.user-comment .body {
+	margin-top: 5px;
+	white-space: pre-line;
+}
+
+.user-comment .comment-controls {
+	margin-top: 5px;
+}
+
+.user-comment .upvote,
+.user-comment .downvote {
+	background: url("../img/arrow.png") top left / 20px 20px no-repeat;
+	display: inline-block;
+	height: 20px;
+	overflow: hidden;
+	text-indent: 100%;
+	vertical-align: middle;
+	width: 20px;
+	white-space: pre-wrap;
+}
+
+.user-comment .downvote {
+	transform: rotate(180deg);
+}
+
+.user-comment .reply {
+	margin-left: 30px;
+}
 
 .article-controls {
 	float: right;
